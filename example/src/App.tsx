@@ -4,6 +4,9 @@ import { DarkTheme, NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { PreJoinPage } from './PreJoinPage';
 import { RoomPage } from './RoomPage';
+import { LogBox } from 'react-native';
+
+LogBox.ignoreAllLogs(true); // 关闭 RN 日志
 
 const Stack = createNativeStackNavigator();
 export default function App() {

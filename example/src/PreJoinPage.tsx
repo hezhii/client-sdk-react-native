@@ -7,8 +7,8 @@ import type { RootStackParamList } from './App';
 import { useTheme } from '@react-navigation/native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
-const DEFAULT_URL = 'wss://www.example.com';
-const DEFAULT_TOKEN = '';
+const DEFAULT_URL = 'wss://livekit.newbest.com.cn';
+const DEFAULT_TOKEN = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NzMwNTUzMTIsImlzcyI6IkFQSWIyQVpna1NhYjNSUiIsImp0aSI6InNvbmdzb25nIiwibmJmIjoxNjcyOTY4OTEyLCJzdWIiOiJzb25nc29uZyIsInZpZGVvIjp7InJvb20iOiJ0ZXN0LXJvb20iLCJyb29tSm9pbiI6dHJ1ZX19.yImtEyDZOO6jK1w4XxYSWGZI_kiliiVzA0r5XluXs1c';
 
 const URL_KEY = 'url';
 const TOKEN_KEY = 'token';
